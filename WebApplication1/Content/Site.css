@@ -6,10 +6,17 @@ header {
     background-color: rgba(34,34,34,.95);
     padding: 20px;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 10px solid #0e9618;
+    
 }
 
 header h1 {
     margin:0;
+    
+
    
 }nav ul {
      margin:0;
@@ -27,6 +34,9 @@ header h1 {
  nav a {
      color: white;
      text-decoration: none;
+ }
+ #hero{
+     width: 100%;
  }
 
 /* styles for validation helpers */
